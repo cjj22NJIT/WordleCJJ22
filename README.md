@@ -32,7 +32,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+The first GIF shows a user submitting a guess, attempting to submit invalid guesses (not 4 letters), then getting the answer correct by the second guess.
+
+![wordiniSuccess](https://github.com/cjj22NJIT/WordleCJJ22/assets/144167084/eaf24aeb-3470-42fc-a163-26215d1d1925)
+
+The second GIF shows a user incorrectly guessing three times and then attempting to guess a fourth time.
+
+![wordiniIncorrect](https://github.com/cjj22NJIT/WordleCJJ22/assets/144167084/1faa3f48-a797-48b4-b73d-928ba78a5020)
+
 
 GIF created with ScreenToGif  
 
@@ -40,3 +47,5 @@ GIF created with ScreenToGif
 ## Notes
 
 No major challenges encountered. App makes a Toast pop up when a word that isn't 4 letters in length is submitted.
+App no longer accepts answers after three guesses.
+Guess input box clears itself on submit.
